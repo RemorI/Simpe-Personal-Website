@@ -1,0 +1,120 @@
+@import url("style.css");
+
+*{
+	padding: 0;
+	margin: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body{
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+div.container{
+	width: 95%;
+}
+
+@media only screen and (max-width: 930px){
+	body{
+		background-size: cover;
+	}
+
+	div.container{
+		width: 97%;
+	}
+
+	div.headertitle{
+		margin: auto 0;
+	}
+
+	div.waypoint{
+		width: 28px;
+	}
+
+	div#waypoint-01{
+		margin-top: 25px;
+	}
+
+	div#waypoint-02{
+		margin-top: 140px;
+		margin-left: -127px;
+	}
+
+	div#waypoint-03{
+		margin-top: 84px;
+		margin-left: 139px;
+	}
+
+	div#waypoint-04{
+		margin-left: 25px;
+	}
+
+	img.headerimg{
+		min-height: 300px;
+		width: 200%;
+		position: absolute;
+		left: -250px;
+		top: 120px;
+	}
+
+	h2.about{
+		font-size: 54px;
+	}
+
+	div.abouttext{
+		margin: 0 35px;
+		font-size: 25px;
+	}
+
+	div#portfolio{
+		height: 100%;
+	}
+
+	div.container-works{
+		display: block;
+	}
+
+	div.work{
+		width: 90%;
+	}
+
+	p.name a{
+		font-size: 27px;
+	}
+
+	p.category{
+		font-size: 18px;
+	}
+
+	div.contactme a.socialmedia{
+		margin-right: 0;
+		display: block;
+		margin-bottom: 39px;
+	}
+
+	div.contactme a.socialmedia:last-child{
+		margin-bottom: 0;
+	}
+}
+
+@media only screen and (max-width: 890px){
+	img.headerimg{
+		min-height: 300px;
+		width: 175%;
+		position: absolute;
+		left: -250px;
+		top: 120px;
+	}
+}
+
+@media only screen and (max-width: 550px){
+	img.headerimg{
+		min-height: 300px;
+		width: 238%;
+		position: absolute;
+		left: -333px;
+		top: 120px;
+	}
+}

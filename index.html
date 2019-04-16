@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Personal Website</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/mediaquery.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+	<center>
+		<div class="headertitle">Web Developer Junior</div>
+		<div class="wp-cover wp-coverage"></div>
+		<center>
+			<div id="headerbg">
+				<div class="wp-wrapper">
+					<div class="map-waypoints show-map">
+						<div id="waypoint-01" class="waypoint-marker">
+							<a title="1 | Home" href="#home">
+								<div class="waypoint">
+									<div class="waypoint-inner"></div>
+								</div>
+							</a>
+						</div><!--waypoint-marker-->
+						<div id="waypoint-02" class="waypoint-marker">
+							<a title="2 | About Me">
+								<div class="waypoint" onclick="aboutMe()">
+									<div class="waypoint-inner"></div>
+								</div>
+							</a>
+						</div><!--waypoint-marker-->
+						<div id="waypoint-03" class="waypoint-marker">
+							<a title="3 | Portfolio">
+								<div class="waypoint" onclick="portfolio()">
+									<div class="waypoint-inner"></div>
+								</div>
+							</a>
+						</div><!--waypoint-marker-->
+						<div id="waypoint-04" class="waypoint-marker">
+							<a title="4 | Contact">
+								<div class="waypoint" onclick="contact()">
+									<div class="waypoint-inner"></div>
+								</div>
+							</a>
+						</div><!--waypoint-marker-->
+					</div><!--map-waypoint-->
+				</div><!--wp-wrapper-->
+				<img class="headerimg" src="http://static.tumblr.com/2icx37z/oJUoyfh29/679478.jpg"></img>
+			</div><!--headerbg-->
+		</center>
+
+		<div class="container">
+			<div id="aboutMe">
+				<h2 class="about">About me</h2>
+				<div class="abouttext">My name is <b>Ignacio Escudero</b>, I'm a junior passionate <b>programmer</b>, self-taught and a eternal apprentice, I like the moderns technologies and I'm in the way of the <b>Full Stack Web Developers</b>.</br></br>
+				These are the languages and technologies in wich at the moment I have a beginner/intermediate level:</br>
+					<div class="deco">
+						HTML5 - CSS3 - Javascript</br>
+						JQuery - Angular - React(Soon)</br>
+						MySql - Oracle - PHP(Soon)</br>
+					</div>
+				</div>
+			</div><!--About Me-->
+
+			<div id="portfolio">
+				<div class="container">
+					<h2 class="about">Portfolio</h2>
+					<div class="container-works">
+						<!--Proyect 1-->
+						<div class="work">
+							<div class="thumb">
+								<a href="https://www.linkedin.com/in/ignacio-escudero-ab440517a/" target="_blank">
+                	<img src="img/web.png" alt="Simple Web Developer">
+              	</a>
+								<div class="description">
+									<p class="name">
+										<a href="https://www.linkedin.com/in/ignacio-escudero-ab440517a/">My static Personal Web</a>
+									</p>
+									<p class="category">HTML - CSS - JS - JQuery</p>
+								</div>
+							</div>
+						</div>
+						<!--Proyecto 2-->
+						<div class="work">
+							<div class="thumb">
+								<a href="https://github.com/RemorI/localNewspaper" target="_blank">
+                	<img src="img/localnews.png" alt="Local Newspaper">
+              	</a>
+								<div class="description">
+									<p class="name">
+										<a href="https://github.com/RemorI/localNewspaper">Local Newspaper (In progress)</a>
+									</p>
+									<p class="category">HTML - CSS(IP) - JS(Soon)</p>
+								</div>
+							</div>
+						</div>
+						<!--Proyecto 3
+						<div class="work">
+							<div class="thumb">
+								<a href="" target="_blank">
+                	<img src="img/" alt="">
+              	</a>
+								<div class="description">
+									<p class="name">
+										<a href=""></a>
+									</p>
+									<p class="category"></p>
+								</div>
+							</div>
+						</div>-->
+						<!--Proyecto 4
+						<div class="work">
+							<div class="thumb">
+								<a href="" target="_blank">
+                	<img src="img/" alt="">
+              	</a>
+								<div class="description">
+									<p class="name">
+										<a href=""></a>
+									</p>
+									<p class="category"></p>
+								</div>
+							</div>
+						</div>-->
+					</div>
+				</div>
+			</div><!--Portfolio-->
+
+			<div id="contact">
+				<div class="contactme">
+					<h2 class="about">Contact</h2>
+					<a class="socialmedia" href="mailto:ignaescuvero@gmail.com"><i class="fas fa-envelope">Gmail</i></a>
+					<a class="socialmedia" href="https://www.linkedin.com/in/ignacio-escudero-ab440517a/"><i class="fab fa-linkedin">LinkedIn</i></a>
+					<a class="socialmedia" href="https://github.com/RemorI"><i class="fab fa-github">GitHub</i></a>
+				</div>
+			</div>
+			<div class="footer">Developed by Ignacio Escudero © 2019</div>
+		</div><!--container-->
+	</center>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script type="text/javascript" src="script/script.js"></script>
+
+</body>
+</html>
